@@ -1,14 +1,3 @@
-"""
-NAME: GABRIEL_HAO_WEI_YAP
-YID: 2024148069
-
-CAS2103: Data Structures
-quadtree.py
-Instructor: Seong Jae Hwang
-
-Quadtree utils for HW3.
-"""
-
 import numpy as np
 
 class Node:
@@ -241,11 +230,6 @@ def compute_image_corners(node, child):
     
     return [ul_x, ul_y, dr_x, dr_y]
     
-
-# -------------------------- DO NOT CHANGE ABOVE CODES ------------------- #
-
-# -------------------------- IMPLEMENT BELOW YOURSELF -------------------- #
-
     
 def build_quadtree_recursive(qt, node):
     """ Recursively build a quadtree
